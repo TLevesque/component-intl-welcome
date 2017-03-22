@@ -1,0 +1,64 @@
+{
+  "name": "component-intl-welcome",
+  "version": "0.1.0",
+  "description": "Example of component library according to Component Approach to Internationalization",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oklas/component-intl-welcome.git"
+  },
+  "keywords": [
+    "intl",
+    "internationalization",
+    "i18n",
+    "webpack",
+    "merge",
+    "join",
+    "component"
+  ],
+  "author": "Serguei Okladnikov <oklaspec@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oklas/component-intl-welcome/issues"
+  },
+  "homepage": "https://github.com/oklas/component-intl-welcome",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "babel-runtime": "^6.20.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-intl": "^2.2.3",
+    "webpack": "^2.3.1"
+  },
+  "dependencies": {},
+  "babel": {
+    "presets": [
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "syntax-trailing-function-commas",
+      "transform-async-to-generator",
+      "transform-es2015-destructuring",
+      "transform-es2015-parameters",
+      "transform-es2015-duplicate-keys",
+      "transform-es2015-modules-commonjs",
+      "transform-exponentiation-operator",
+      "transform-runtime"
+    ]
+  },
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.release.js"
+  }
+}

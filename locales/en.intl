@@ -1,0 +1,15 @@
+# See https://github.com/oklas/component-intl-welcome for starting points.
+
+
+en:
+  component-intl-welcome:
+    your-name: Your name
+    work-began-year: work began year
+    number-of-works: number of works
+    welcome-message: "
+      Welcome {name}, you have done {works, plural,
+        =0 {no any work}
+        one {{formattedWorksDone} great work}
+        other {{formattedWorksDone} great works}
+      } since {formattedWorkBegan}.
+    "

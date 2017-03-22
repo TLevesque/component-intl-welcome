@@ -1,0 +1,16 @@
+# See https://github.com/oklas/component-intl-welcome for starting points.
+
+
+ru:
+  component-intl-welcome:
+    your-name: Ваше имя
+    work-began-year: год начала работы
+    number-of-works: количество работ
+    welcome-message: "
+      Добро пожаловать {name}, в период начиная {formattedWorkBegan}
+      {works, plural,
+        =0 {вы не завершили ни одной работы}
+        one {вы завершили {formattedWorksDone} отличную работу}
+        other {вы завершили {formattedWorksDone} отличных работ}
+      }.
+    "
