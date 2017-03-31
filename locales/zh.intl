@@ -3,13 +3,14 @@
 
 zh:
   component-intl-welcome:
-    your-name: 你的名字
-    work-began-year: 工作开始一年
-    number-of-works: 作品数量
+    your-name: 您的名字
+    work-began-year: 工作开始的年
+    number-of-works: 作品的数量
     welcome-message: "
-      欢迎 {name}, 你已经完成 {works, plural,
-        =0 {没有工作}
-        one {{formattedWorksDone} 佳作}
-        other {{formattedWorksDone} 伟大的工作}
-      } 因为 {formattedWorkBegan}.
+      欢迎 {name}, 从期 {formattedWorkBegan}
+      {works, plural,
+        =0 {您尚未完成任何工作}
+        one {你已经完成 {formattedWorksDone} 佳作}
+        other {你已经完成 {formattedWorksDone} 佳作}
+      }。
     "

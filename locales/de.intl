@@ -4,13 +4,13 @@
 de:
   component-intl-welcome:
     your-name: Ihr Name
-    work-began-year: gestartet arbeit
-    number-of-works: Arbeitsumfang
+    work-began-year: Arbeitsbeginn, Jahr
+    number-of-works: Anzahl der Arbeiten
     welcome-message: "
-      Willkommen {name}, in der Zeit von {formattedWorkBegan}
+      Willkommen {name}, seit {formattedWorkBegan}
       {works, plural,
-        =0 {Sie haben nicht ein einziges Werk abgeschlossen}
-        one {Sie haben einen tollen Job abgeschlossen {formattedWorksDone}}
-        other {Sie haben die {formattedWorksDone} verschiedene Arbeiten abgeschlossen}
+        =0 {Sie beendeten keine Arbeit}
+        one {Sie beendeten {formattedWorksDone} eine perfekte Arbeit}
+        other {Sie beendeten {formattedWorksDone} perfekte Arbeiten}
       }.
     "
